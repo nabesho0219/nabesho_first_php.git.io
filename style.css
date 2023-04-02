@@ -1,0 +1,51 @@
+body{
+    position: relative;
+    max-width: 425px;
+    margin: 0 auto;
+    height: 490px;
+    border: 1px solid #333;
+    background-color: rgb(157, 244, 157);
+}
+
+.header_top{
+    background-color: black;
+    height: 15px;
+}
+
+.header_name{
+    background-color: rgb(70, 69, 69);
+    color: white;
+    padding-left: 28px;
+}
+
+.output_wrapper{
+    position: absolute;
+    right: 0;
+    padding-right:10px; 
+    margin-top:5px;
+}
+
+section{
+    background-color: rgb(157, 244, 157);
+    width: 100%;
+}
+
+.messege{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(70, 69, 69);
+    display: flex;
+    justify-items: center;
+
+}
+
+.messege textarea{
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+.messegeSend{
+    margin-left: 10px;
+}
